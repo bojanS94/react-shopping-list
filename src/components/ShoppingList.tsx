@@ -4,7 +4,7 @@ import { IShoppingItem } from "../interfaces/interfaces";
 interface Props {
   item: IShoppingItem;
   completeItem(itemToDelete: string): void;
-  itemIsDone(completed: number): void;
+  itemIsDone(completed: boolean): void;
 }
 
 const ShoppingList = ({ item, completeItem }: Props) => {

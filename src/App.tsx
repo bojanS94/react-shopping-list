@@ -68,12 +68,7 @@ function App() {
       <div className="toDoList">
         {shopItemList.map((item: IShoppingItem, key: number) => {
           return (
-            <ShoppingList
-              key={key}
-              item={item}
-              completeItem={completeItem}
-              itemIsDone={itemIsDone}
-            />
+            <ShoppingList key={key} item={item} completeItem={completeItem} />
           );
         })}
       </div>

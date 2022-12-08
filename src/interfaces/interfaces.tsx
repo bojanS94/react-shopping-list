@@ -1,5 +1,5 @@
 export interface IShoppingItem {
-  id?: number;
+  id: number;
   itemName: string;
   isDone: boolean;
 }
